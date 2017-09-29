@@ -2,7 +2,7 @@ goog.provide('javascript.util.IndexOutOfBoundsException');
 
 
 /**
- * @param {string=} message Optional message
+ * @param {string=} message Optional message.
  * @extends {Error}
  * @constructor
  * @export
@@ -16,4 +16,5 @@ goog.inherits(javascript.util.IndexOutOfBoundsException, Error);
 /**
  * @type {string}
  */
-javascript.util.IndexOutOfBoundsException.prototype.name = 'IndexOutOfBoundsException';
+javascript.util.IndexOutOfBoundsException.prototype.name =
+              'IndexOutOfBoundsException';

@@ -2,7 +2,7 @@ goog.provide('javascript.util.OperationNotSupported');
 
 
 /**
- * @param {string=} message Optional message
+ * @param {string=} message Optional message.
  * @extends {Error}
  * @constructor
  * @export

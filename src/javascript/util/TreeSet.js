@@ -49,13 +49,19 @@ javascript.util.TreeSet.prototype.contains = function(o) {
   return false;
 };
 
-javascript.util.Treeset.prototype.top = function(){
-	return this.array_[0];
-}
+/**
+ * @export
+ */
+javascript.util.TreeSet.prototype.top = function() {
+  return this.array_[0];
+};
 
-javascript.util.TreeSet.prototype.removeTop = function(){
-  return this.array_.shift()
-}
+/**
+ * @export
+ */
+javascript.util.TreeSet.prototype.removeTop = function() {
+  return this.array_.shift();
+};
 
 /**
  * @override
@@ -97,11 +103,11 @@ javascript.util.TreeSet.prototype.addAll = function(c) {
  * @export
  */
 javascript.util.TreeSet.prototype.remove = function(e) {
-  if(this.contains(e)){
-    index = this.array_.indexOf(e)
+  if (this.contains(e)) {
+    var index = this.array_.indexOf(e);
     this.array_.splice(index, 1);
     return true;
-  }else{
+  }else {
     return false;
   }
 };

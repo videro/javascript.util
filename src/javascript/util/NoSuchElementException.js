@@ -2,7 +2,7 @@ goog.provide('javascript.util.NoSuchElementException');
 
 
 /**
- * @param {string=} message Optional message
+ * @param {string=} message Optional message.
  * @extends {Error}
  * @constructor
  * @export
@@ -16,4 +16,5 @@ goog.inherits(javascript.util.NoSuchElementException, Error);
 /**
  * @type {string}
  */
-javascript.util.NoSuchElementException.prototype.name = 'NoSuchElementException';
+javascript.util.NoSuchElementException.prototype.name =
+ 'NoSuchElementException';

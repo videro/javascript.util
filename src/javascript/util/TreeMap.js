@@ -121,7 +121,6 @@ javascript.util.TreeMap.prototype.put = function(key, value) {
 
 /**
  * @param {Object} x
- * @private
  */
 javascript.util.TreeMap.prototype.fixAfterInsertion = function(x) {
   x.color = RED;
@@ -183,7 +182,6 @@ javascript.util.TreeMap.prototype.values = function() {
 
 /**
  * @param {Object} p
- * @private
  */
 javascript.util.TreeMap.prototype.rotateLeft = function(p) {
   if (p != null) {
@@ -206,7 +204,6 @@ javascript.util.TreeMap.prototype.rotateLeft = function(p) {
 
 /**
  * @param {Object} p
- * @private
  */
 javascript.util.TreeMap.prototype.rotateRight = function(p) {
   if (p != null) {
@@ -242,7 +239,6 @@ javascript.util.TreeMap.prototype.getFirstEntry = function() {
 /**
  * @param {Object} t
  * @return {Object}
- * @private
  */
 javascript.util.TreeMap.successor = function(t) {
   if (t === null)
